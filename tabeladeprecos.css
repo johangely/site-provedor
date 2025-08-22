@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.topo{
+  background-color:  #2f86d6;
+}
+
+.container-topo{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+    padding: 35px 0px;
+}
+
+.topo-logo   {
+    position: relative;
+   
+}
+.topo-logo img{
+    width: 70px;
+   
+}
+.container-topo h1{
+    position: absolute;
+    left: 100px;
+    top: 40px;
+
+}
+
+
+.container-topo p{
+   position: absolute;
+   left: 100px;
+   top: 80px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+.topo-links{
+    position: absolute;
+    top:65px;
+    right: 200px;
+}
+.topo-links a {
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .contenido-principal{
+  
+    padding: 100px 0px;
+  }
+
+  .conteudo-principal table{
+    margin: auto;
+    
+  }
+
+  table{
+    border-radius: 4px ;
+    margin:0 auto;
+
+
+  }
+
+  .celula-escondida {
+    visibility: hidden;
+  }
+
+  .celula-cabeçalho{
+    background-color:  #f1f3f7 ;
+    text-align: center;
+    padding: 20px 40px;
+
+  }
+  .celula-cabeçalho p{
+    font-size: 14px;
+    color:#a89f9f;
+    font-weight: normal;
+    
+  }
+
+  .celula-cabeçalho h2{
+    font-size: 36px;
+  
+  }
+   table, tbody{
+   padding-left:50px;
+   padding-right: 20px;
+   
+   
+
+  }
+  .primera-celula{
+    background-color: #f1f3f7;
+    padding: 20px 40px;
+    text-align: left;
+  
+   
+  }
+
+  
+table tbody td{ 
+ 
+    text-align: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+    
+  
+}
+.marcador-azul{
+  width: 15px;
+  height: 15px ;
+  border-radius: 90px;
+  background-color: #2f86d6;
+  margin: auto;
+
+}
+
+
+.rodape{
+  background-color: #2f86d6;
+  padding: 100px 0px;
+ 
+
+}
+.rodape-logo{
+  position: relative;
+  width: 320px;
+  margin: auto ;
+ 
+
+}
+
+.rodape-logo img{
+  width: 80px;
+ 
+}
+.rodape-logo div{
+  position: absolute;
+  top:0px;
+  left:95px;
+
+ 
+
+}
+.rodape-logo p{
+  color:#fff;
+  font-weight: 500;
+  
+
+}
+
+.paragrafo-rodape {
+  width: 1024px;
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: -150px;
+  padding-top: 20px;
+}
+
+.container-copyright{
+  width: 100%;
+  padding: 20px 0px;
+  background-color: #fff;
+  text-align: center;
+  font-weight: 600;
+
+
+}
+.blue{
+  color: #2f86d6;
+}
+  
